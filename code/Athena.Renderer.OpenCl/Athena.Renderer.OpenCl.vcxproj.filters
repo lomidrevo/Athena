@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\AthenaOpenCl.cpp">
+      <Filter>source\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\dllmain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\AthenaOpenCl.h">
+      <Filter>source\Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OpenClLogExtension.h">
+      <Filter>source\Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\kernels\raytracer.cl">
+      <Filter>source\Source files\kernels</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{8424b156-7a10-4d05-8417-db3adb538e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Header files">
+      <UniqueIdentifier>{b765c618-4b1a-4fc1-aa70-a2526931f94d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Source files">
+      <UniqueIdentifier>{5a1f4ee4-cbbc-41f5-9181-9cb972cd4f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Source files\kernels">
+      <UniqueIdentifier>{50e7630d-8816-40cc-b050-04404f4c27ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

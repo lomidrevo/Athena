@@ -1,0 +1,34 @@
+TODO
+
+- nacitavanie obrazkov
+- benchmark mode
+- zjednotit position/cell v BIH nodoch a objektoch
+- proceduralne generovanie terenu/mesta
+- ukladat storage nakonci do suboru, na zaciatku nacitavat
+- prerobit kameru - 3d zobrazenie kamery z 3. osoby pre debug
+- xml scene parser pre c++
+
+GUI
+	- scrolling cez mouse wheel
+	- Debug graph
+		- tooltip s nazvom timera nad barmi
+	- multithread vykreslovanie
+	- vypisovat LOG cez UserInterface - F2?
+	- .NET gui + spustanie c++ exe pre render (neskor mozno len volanie funkcii + vystup priamo do .net okna?)
+	- stromovy editor ala GRASSHOPPER v .NETe ako GUI
+
+CUDA
+	- 
+
+OPENCL
+	- 
+
+RAYTRACING
+	- gamma correction ?
+	- Octree
+		- optimalizovat CollideNode
+		- optimalizovat ZOrder, aby som pri prehladavni zacal z tej strany ktora je otocena voci ray.origin
+		- pri Update() zoradovat objekty aby som nemusel testovat kazdy node vzdy voci vsetkym
+	- photon mapping
+	- instancing
+	- antialiasing

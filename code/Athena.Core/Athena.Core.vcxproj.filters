@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Win32.cpp">
+      <Filter>source\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Athena.cpp">
+      <Filter>source\Source files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BoundingIntervalHierarchy.cpp">
+      <Filter>source\Source files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>source\Source files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Octree.cpp">
+      <Filter>source\Source files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RayMarching.cpp">
+      <Filter>source\Source files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RayTracing.cpp">
+      <Filter>source\Source files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering.cpp">
+      <Filter>source\Source files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene.cpp">
+      <Filter>source\Source files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>source\Source files\Rendering\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Log.cpp">
+      <Filter>source\Source files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MemoryManager.cpp">
+      <Filter>source\Source files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StringHelpers.cpp">
+      <Filter>source\Source files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Timer.cpp">
+      <Filter>source\Source files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UserInterface.cpp">
+      <Filter>source\Source files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Vectors.cpp">
+      <Filter>source\Source files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\dllmain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Timers.h">
+      <Filter>source\Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Win32.h">
+      <Filter>source\Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Array.h">
+      <Filter>source\Header files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AACell.h">
+      <Filter>source\Header files\Rendering\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Animations.h">
+      <Filter>source\Header files\Rendering\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Athena.h">
+      <Filter>source\Header files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BoundingIntervalHierarchy.h">
+      <Filter>source\Header files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Box.h">
+      <Filter>source\Header files\Rendering\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>source\Header files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BoxLightSource.h">
+      <Filter>source\Header files\Rendering\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Convert.h">
+      <Filter>source\Header files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debug.h">
+      <Filter>source\Header files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Frame.h">
+      <Filter>source\Header files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Gradient.h">
+      <Filter>source\Header files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HitResult.h">
+      <Filter>source\Header files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input.h">
+      <Filter>source\Header files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Light.h">
+      <Filter>source\Header files\Rendering\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\List.h">
+      <Filter>source\Header files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Log.h">
+      <Filter>source\Header files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Materials.h">
+      <Filter>source\Header files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Matrix.h">
+      <Filter>source\Header files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MemoryManager.h">
+      <Filter>source\Header files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh.h">
+      <Filter>source\Header files\Rendering\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object.h">
+      <Filter>source\Header files\Rendering\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects.h">
+      <Filter>source\Header files\Rendering\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Plane.h">
+      <Filter>source\Header files\Rendering\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PointLightSource.h">
+      <Filter>source\Header files\Rendering\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sphere.h">
+      <Filter>source\Header files\Rendering\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SphereLightSource.h">
+      <Filter>source\Header files\Rendering\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mutex.h">
+      <Filter>source\Header files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Random.h">
+      <Filter>source\Header files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ppm.h">
+      <Filter>source\Header files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StringHelpers.h">
+      <Filter>source\Header files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Singleton.h">
+      <Filter>source\Header files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Timer.h">
+      <Filter>source\Header files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TypeDefs.h">
+      <Filter>source\Header files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UserInterface.h">
+      <Filter>source\Header files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vectors.h">
+      <Filter>source\Header files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ZOrder.h">
+      <Filter>source\Header files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Octree.h">
+      <Filter>source\Header files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ray.h">
+      <Filter>source\Header files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RayMarching.h">
+      <Filter>source\Header files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RayTracing.h">
+      <Filter>source\Header files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering.h">
+      <Filter>source\Header files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Triangle.h">
+      <Filter>source\Header files\Rendering\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>source\Header files\Rendering</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{7e771e32-21c4-4acd-9cae-afc84e8896a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Header files">
+      <UniqueIdentifier>{509f0e29-adb1-49e8-917e-017f17ec5277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Source files">
+      <UniqueIdentifier>{50be7dd2-1719-4b91-91e1-196e0a80574d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Header files\Common">
+      <UniqueIdentifier>{f28515fe-f3a7-4d2e-a633-7d801b52d8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Header files\Rendering">
+      <UniqueIdentifier>{22e63f1d-9d74-4db8-aaea-aaea0d6909eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Header files\Rendering\Objects">
+      <UniqueIdentifier>{50479201-2715-455b-854f-804bb63a5da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Source files\Common">
+      <UniqueIdentifier>{a7f30dbf-71e6-411f-9bc6-2fa4f531fc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Source files\Rendering">
+      <UniqueIdentifier>{b3440431-7e94-415c-b2c1-c78c364df477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Source files\Rendering\Objects">
+      <UniqueIdentifier>{c7215c90-ddc7-40f0-9f12-1d9f2118e01d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
