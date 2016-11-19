@@ -120,10 +120,10 @@ ATHENA_DLL_EXPORT ATHENA_INITIALIZE(AthenaInitialize)
 	storage->renderingParameters.maxRayTracingDepth = 4;
 	storage->renderingParameters.maxOctreeDepth = 0;
 	storage->renderingParameters.multiThreadedOctreeUpdate = false;
-	storage->renderingParameters.renderingMode = RenderingMode::Progressive;
+	storage->renderingParameters.renderingMode = RenderingMode::Continuous;
 	storage->renderingParameters.renderingMethod = RenderingMethod::RayTracing;
 	storage->renderingParameters.tracingMethod = TracingMethod::BoundingIntervalHierarchy;
-	storage->renderingParameters.currentRenderer = Renderer::GPU_OpenCL;
+	storage->renderingParameters.currentRenderer = Renderer::CPU;
 
 #ifdef DEBUG
 	storage->renderingParameters.softwareRenderingThreadsCount = 1;

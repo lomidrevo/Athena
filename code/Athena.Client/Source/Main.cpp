@@ -375,19 +375,19 @@ int CALLBACK WinMain(
 	_In_ int nShowCmd
 	)
 {
-	ui64 x = 1;
-	ui64 y = 2;
-	ui64 frame = 3;
-	ui64 seed = (ui64)time(null);
+	//ui64 x = 1;
+	//ui64 y = 2;
+	//ui64 frame = 3;
+	//ui64 seed = (ui64)time(null);
 
-	f64 random0 = GetRandom64(&x, &y, &frame, &seed);
-	f64 random1 = GetRandom64(&x, &y, &frame, &seed);
-	f64 random2 = GetRandom64(&x, &y, &frame, &seed);
-	f64 random3 = GetRandom64(&x, &y, &frame, &seed);
-	f64 random4 = GetRandom64(&x, &y, &frame, &seed);
-	f64 random5 = GetRandom64(&x, &y, &frame, &seed);
-	f64 random6 = GetRandom64(&x, &y, &frame, &seed);
-	f64 random7 = GetRandom64(&x, &y, &frame, &seed);
+	//f64 random0 = GetRandom64(&x, &y, &frame, &seed);
+	//f64 random1 = GetRandom64(&x, &y, &frame, &seed);
+	//f64 random2 = GetRandom64(&x, &y, &frame, &seed);
+	//f64 random3 = GetRandom64(&x, &y, &frame, &seed);
+	//f64 random4 = GetRandom64(&x, &y, &frame, &seed);
+	//f64 random5 = GetRandom64(&x, &y, &frame, &seed);
+	//f64 random6 = GetRandom64(&x, &y, &frame, &seed);
+	//f64 random7 = GetRandom64(&x, &y, &frame, &seed);
 	
 	Win32CreateConsole();
 

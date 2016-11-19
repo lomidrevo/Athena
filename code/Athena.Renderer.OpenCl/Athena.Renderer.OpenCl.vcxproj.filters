@@ -15,9 +15,6 @@
     <ClInclude Include="Source\OpenClLogExtension.h">
       <Filter>source\Header files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\kernels\raytracer.cl">
-      <Filter>source\Source files\kernels</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="source">
@@ -29,8 +26,14 @@
     <Filter Include="source\Source files">
       <UniqueIdentifier>{5a1f4ee4-cbbc-41f5-9181-9cb972cd4f46}</UniqueIdentifier>
     </Filter>
-    <Filter Include="source\Source files\kernels">
-      <UniqueIdentifier>{50e7630d-8816-40cc-b050-04404f4c27ae}</UniqueIdentifier>
+    <Filter Include="OpenCL Files">
+      <UniqueIdentifier>{D011BB44-1BF7-4113-997B-A081035B40D8}</UniqueIdentifier>
+      <Extensions>cl</Extensions>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Intel_OpenCL_Build_Rules Include="Source\kernels\raytracer.cl">
+      <Filter>OpenCL Files</Filter>
+    </Intel_OpenCL_Build_Rules>
   </ItemGroup>
 </Project>

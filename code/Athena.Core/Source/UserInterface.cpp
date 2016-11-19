@@ -53,8 +53,10 @@ void UserInterface::Initialize(MemoryManager* memoryManagerInstance, AthenaStora
 	colors.Add(v3b(0, 127, 127));
 	colors.Add(v3b(127, 0, 127));
 	
+	// TODO nacitavat z executable adresara
+
 #ifdef BUCHANICA
-	ReadFont("c:\\filip\\programming\\_projects\\Athena\\data\\fonts\\consola.ttf", memoryManagerInstance, font);
+	ReadFont("c:\\filip\\programming\\projects\\Athena\\data\\fonts\\consola.ttf", memoryManagerInstance, font);
 #else
 	ReadFont("d:\\stuff\\Projects\\Athena\\data\\fonts\\consola.ttf", memoryManagerInstance, font);
 #endif

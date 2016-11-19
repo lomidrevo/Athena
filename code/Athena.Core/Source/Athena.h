@@ -13,7 +13,6 @@
 // TODO prerobit na Athena.Core
 // TODO exportnut funkcie ktore vola Athena.Client
 
-
 #define ATHENA_GPU_INITIALIZE(name)	void name(v2ui frameSize)
 #define ATHENA_GPU_UPDATE(name)		void name(Objects& deviceObjects, const Objects& objects, const v3f* camera)
 #define ATHENA_GPU_RENDER(name) \
